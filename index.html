@@ -1,12 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+    <meta
+      name="description"
+      content="A simple, elegant homepage with photos and a link to my main website."
+    />
     <link rel="stylesheet" href="styles.css" />
-    <title>Alexander Gabor Portfolio</title>
   </head>
   <body>
-    <h3>Hej allihopa</h3>
+    <div class="wrapper">
+      <header>
+        <div class="brand">alexander-gabor.github.io</div>
+        <nav>
+          <a
+            class="cta"
+            href="https://alexandergabor.netlify.app/"
+            target="_blank"
+            rel="noopener"
+          >
+            Visit my main site <span class="pill">Netlify</span>
+          </a>
+        </nav>
+      </header>
+
+      <section class="card hero" aria-labelledby="hero-title">
+        <h1 id="hero-title">Hello 👋 — welcome</h1>
+        <p class="sub">
+          A minimal, fast landing page with a couple of photos. Click below to
+          see my full website.
+        </p>
+        <div>
+          <a
+            class="cta"
+            href="https://alexandergabor.netlify.app/"
+            target="_blank"
+            rel="noopener"
+          >
+            Explore full portfolio →
+          </a>
+        </div>
+      </section>
+
+      <section class="card gallery" aria-labelledby="gallery-title">
+        <h2 id="gallery-title">Highlights</h2>
+        <div class="grid">
+          <figure>
+            <img
+              src="images/photo1.jpg"
+              alt="Project or photograph title #1"
+              loading="lazy"
+              decoding="async"
+            />
+            <figcaption>Caption one — short and clear.</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/photo2.jpg"
+              alt="Project or photograph title #2"
+              loading="lazy"
+              decoding="async"
+            />
+            <figcaption>Caption two — brief description.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <footer>© <span id="y"></span> Your Name. All rights reserved.</footer>
+    </div>
+
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+    <meta
+      name="description"
+      content="A simple, elegant homepage with photos and a link to my main website."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="brand">alexander-gabor.github.io</div>
+        <nav>
+          <a
+            class="cta"
+            href="https://alexandergabor.netlify.app/"
+            target="_blank"
+            rel="noopener"
+          >
+            Visit my main site <span class="pill">Netlify</span>
+          </a>
+        </nav>
+      </header>
+
+      <section class="card hero" aria-labelledby="hero-title">
+        <h1 id="hero-title">Hello 👋 — welcome</h1>
+        <p class="sub">
+          A minimal, fast landing page with a couple of photos. Click below to
+          see my full website.
+        </p>
+        <div>
+          <a
+            class="cta"
+            href="https://alexandergabor.netlify.app/"
+            target="_blank"
+            rel="noopener"
+          >
+            Explore full portfolio →
+          </a>
+        </div>
+      </section>
+
+      <section class="card gallery" aria-labelledby="gallery-title">
+        <h2 id="gallery-title">Highlights</h2>
+        <div class="grid">
+          <figure>
+            <img
+              src="images/photo1.jpg"
+              alt="Project or photograph title #1"
+              loading="lazy"
+              decoding="async"
+            />
+            <figcaption>Caption one — short and clear.</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="images/photo2.jpg"
+              alt="Project or photograph title #2"
+              loading="lazy"
+              decoding="async"
+            />
+            <figcaption>Caption two — brief description.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <footer>© <span id="y"></span> Your Name. All rights reserved.</footer>
+    </div>
+
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
