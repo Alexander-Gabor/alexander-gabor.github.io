@@ -1,156 +1,62 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Home</title>
-    <meta
-      name="description"
-      content="A simple, elegant homepage with photos and a link to my main website."
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <div class="brand">alexander-gabor.github.io</div>
-        <nav>
-          <a
-            class="cta"
-            href="https://alexandergabor.netlify.app/"
-            target="_blank"
-            rel="noopener"
-          >
-            Visit my main site <span class="pill">Netlify</span>
-          </a>
-        </nav>
-      </header>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home</title>
+  <meta name="description" content="A simple, elegant homepage with photos and a link to my main website." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="brand">alexander-gabor.github.io</div>
+      <nav>
+        <a class="cta" href="https://alexandergabor.netlify.app/" target="_blank" rel="noopener">
+          Visit my main site <span class="pill">Netlify</span>
+        </a>
+      </nav>
+    </header>
 
-      <section class="card hero" aria-labelledby="hero-title">
-        <h1 id="hero-title">Hello 👋 — welcome</h1>
-        <p class="sub">
-          A minimal, fast landing page with a couple of photos. Click below to
-          see my full website.
-        </p>
-        <div>
-          <a
-            class="cta"
-            href="https://alexandergabor.netlify.app/"
-            target="_blank"
-            rel="noopener"
-          >
-            Explore full portfolio →
-          </a>
-        </div>
-      </section>
+    <section class="card hero" aria-labelledby="hero-title">
+      <h1 id="hero-title">Hello 👋 — welcome</h1>
+      <p class="sub">
+        A minimal, fast landing page with a couple of photos. Click below to see my full website.
+      </p>
+      <div>
+        <a class="cta" href="https://alexandergabor.netlify.app/" target="_blank" rel="noopener">
+          Explore full portfolio →
+        </a>
+      </div>
+    </section>
 
-      <section class="card gallery" aria-labelledby="gallery-title">
-        <h2 id="gallery-title">Highlights</h2>
-        <div class="grid">
-          <figure>
-            <img
-              src="images/photo1.jpg"
-              alt="Project or photograph title #1"
-              loading="lazy"
-              decoding="async"
-            />
-            <figcaption>Caption one — short and clear.</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/photo2.jpg"
-              alt="Project or photograph title #2"
-              loading="lazy"
-              decoding="async"
-            />
-            <figcaption>Caption two — brief description.</figcaption>
-          </figure>
-        </div>
-      </section>
+    <section class="card gallery" aria-labelledby="gallery-title">
+      <h2 id="gallery-title">Highlights</h2>
+      <div class="grid">
+        <figure>
+          <img 
+            src="https://images.unsplash.com/photo-1503264116251-35a269479413?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+            alt="Modern workspace with laptop and coffee" 
+            loading="lazy" decoding="async" />
+          <figcaption>Modern workspace — creative focus.</figcaption>
+        </figure>
+        <figure>
+          <img 
+            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+            alt="Ocean waves at sunset" 
+            loading="lazy" decoding="async" />
+          <figcaption>Ocean waves — calm inspiration.</figcaption>
+        </figure>
+      </div>
+    </section>
 
-      <footer>© <span id="y"></span> Your Name. All rights reserved.</footer>
-    </div>
+    <footer>
+      © <span id="y"></span> Your Name. All rights reserved.
+    </footer>
+  </div>
 
-    <script>
-      document.getElementById("y").textContent = new Date().getFullYear();
-    </script>
-  </body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Home</title>
-    <meta
-      name="description"
-      content="A simple, elegant homepage with photos and a link to my main website."
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <div class="brand">alexander-gabor.github.io</div>
-        <nav>
-          <a
-            class="cta"
-            href="https://alexandergabor.netlify.app/"
-            target="_blank"
-            rel="noopener"
-          >
-            Visit my main site <span class="pill">Netlify</span>
-          </a>
-        </nav>
-      </header>
-
-      <section class="card hero" aria-labelledby="hero-title">
-        <h1 id="hero-title">Hello 👋 — welcome</h1>
-        <p class="sub">
-          A minimal, fast landing page with a couple of photos. Click below to
-          see my full website.
-        </p>
-        <div>
-          <a
-            class="cta"
-            href="https://alexandergabor.netlify.app/"
-            target="_blank"
-            rel="noopener"
-          >
-            Explore full portfolio →
-          </a>
-        </div>
-      </section>
-
-      <section class="card gallery" aria-labelledby="gallery-title">
-        <h2 id="gallery-title">Highlights</h2>
-        <div class="grid">
-          <figure>
-            <img
-              src="images/photo1.jpg"
-              alt="Project or photograph title #1"
-              loading="lazy"
-              decoding="async"
-            />
-            <figcaption>Caption one — short and clear.</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="images/photo2.jpg"
-              alt="Project or photograph title #2"
-              loading="lazy"
-              decoding="async"
-            />
-            <figcaption>Caption two — brief description.</figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <footer>© <span id="y"></span> Your Name. All rights reserved.</footer>
-    </div>
-
-    <script>
-      document.getElementById("y").textContent = new Date().getFullYear();
-    </script>
-  </body>
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>
