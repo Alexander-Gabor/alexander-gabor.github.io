@@ -15,14 +15,22 @@
       })(window, document, "script", "dataLayer", "GTM-NQ2PZ5KG");
     </script>
     <!-- End Google Tag Manager -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+    <!-- <link rel="stylesheet" href="reset.css" /> -->
+    <link rel="stylesheet" href="style.css" />
+    <meta property="og:title" content="Alexander Gabor's portfolio" />
     <meta
       name="description"
-      content="A simple, elegant homepage with photos and a link to my main website."
+      content="The portfolio of frontend developer Alexander Gabor"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <meta
+      property="og:image"
+      content="https://abload.de/img/ogimage2obfyj.jpg"
+    />
+    <title>Alexander Gabor Portfolio</title>
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
@@ -35,75 +43,608 @@
       ></iframe
     ></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <div class="wrapper">
-      <header>
-        <div class="brand">alexander-gabor.github.io</div>
-        <nav>
-          <a
-            class="cta"
-            href="https://alexandergabor.netlify.app/"
-            target="_blank"
-            rel="noopener"
-          >
-            Visit my main site <span class="pill">Netlify</span>
-          </a>
-        </nav>
-      </header>
+    <span id="backtotop-btn">
+      <img src="images/scrollupbutton.svg" alt="Scroll-up button" /><span
+        class="rocket"
+      >
+        Back to top</span
+      >
+    </span>
 
-      <section class="card hero" aria-labelledby="hero-title">
-        <div style="margin-top: 20px">
-          <button
-            onclick="dataLayer.push({event: 'hero_button_click', label: 'Netlify Portfolio'});"
-          >
-            Track This Click
-          </button>
+    <header>
+      <section class="intro">
+        <div class="left">
+          <div class="name-and-profilePhoto">
+            <img
+              class="profile-pic"
+              src="https://i.ibb.co/C5MRt10k/ISIMG-973349-Afterlight.jpg"
+              alt="ISIMG-973349-Afterlight.jpg"
+              alt="profile photo of Alexander Gabor"
+            />
+            <div class="aboutme-text">
+              <h3>Alexander Gabor</h3>
+              <h4>Growth Specialist</h4>
+              <h5>+ developer | designer</h5>
+            </div>
+          </div>
+          <div class="aboutme">
+            <!-- <p>
+              A creative front-end deveoloper with an extensive design
+              experience and a versatile skillset. With a wide range of
+              abilities in development, softskills, an eye for rich user
+              interfaces. Alexander strives for excellence and thrives in
+              cooperative environments.
+            </p> -->
+            <p>
+              A creative and data-driven Growth Marketer with a foundation in
+              design and front-end development. With first-hand experience in
+              how the internet works under the hood, I bridge technical
+              knowledge with marketing strategy to craft campaigns that are both
+              innovative and measurable. My unique mix of programming insight,
+              analytical skills, and creativity allows me to optimize
+              performance across the full digital funnel.
+            </p>
+            <p>
+              Chalmers graduate, lifelong learner, and currently deepening my
+              expertise in Growth Marketing at Berghs.
+            </p>
+          </div>
+          <div class="social-icons">
+            <ul>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  href="https://www.linkedin.com/in/alexander-gabor-1485b4260/"
+                >
+                  <img
+                    aria-label="visit my linked profile"
+                    class="social-icon"
+                    src="images/linkedin.svg"
+                    alt="linkedin-icon"
+                  />
+                </a>
+              </li>
+
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  href="https://github.com/Alexander-Gabor"
+                >
+                  <img
+                    aria-label="visit my github"
+                    class="social-icon"
+                    src="images/github.svg"
+                    alt="github-icon"
+                  />
+                </a>
+              </li>
+
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  href="https://stackoverflowteams.com/c/technigo/users/415/"
+                >
+                  <img
+                    aria-label="Visit my stack overflow"
+                    class="social-icon"
+                    src="images/stackoverflow.svg"
+                    alt="stack-overflow-icon"
+                  />
+                </a>
+              </li>
+
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  href=""
+                >
+                  <img
+                    aria-label="Visit my Instagram profile"
+                    class="social-icon"
+                    src="images/instagram.svg"
+                    alt="Instagram-icon"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <h1 id="hero-title">Hello 👋 — welcome</h1>
-        <p class="sub">
-          A minimal, fast landing page with a couple of photos. Click below to
-          see my full website.
-        </p>
-        <div>
+        <div class="right">
+          <!-- <img
+          class="right-image"
+          src="https://i.ibb.co/nMgxkxKq/logomockup-v2-Afterlight.jpg"
+          alt="Alexander Gabor's Logo"
+        /> -->
+          <img class="signature" src="images/signature.png" alt="" />
+        </div>
+        <div class="scroll">
           <a
-            class="cta"
-            href="https://alexandergabor.netlify.app/"
-            target="_blank"
-            rel="noopener"
+            href="#techSection"
+            aria-label="Scroll down button to tech section"
           >
-            Explore full portfolio →
-          </a>
+            <img
+              class="scroll-button-img"
+              src="images/scroll-blue-button.svg"
+              alt="scroll button"
+          /></a>
         </div>
       </section>
+    </header>
 
-      <section class="card gallery" aria-labelledby="gallery-title">
-        <h2 id="gallery-title">Highlights</h2>
-        <div class="grid">
-          <figure>
-            <img
-              src="https://unsplash.com/photos/black-background-with-yellow-text-overaly-mRMQwK513hY"
-              alt="Modern workspace with laptop and coffee"
-              loading="lazy"
-              decoding="async"
-            />
-            <figcaption>Modern workspace — creative focus.</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
-              alt="Ocean waves at sunset"
-              loading="lazy"
-              decoding="async"
-            />
-            <figcaption>Ocean waves — calm inspiration.</figcaption>
-          </figure>
+    <!-- Tech section-->
+
+    <section class="tech-section" id="techSection">
+      <h2>Toolbox</h2>
+      <p>
+        <mark class="pink-bg-text">Google Analytics 4 (GA4)</mark>,
+        <mark class="blue-bg-text">Google Tag Manager (GTM)</mark>, Google Ads,
+        Meta Ads Manager, LinkedIn Campaign Manager, Looker Studio (Data
+        Visualization), A/B Testing, Funnel Optimization, SEO/SEM, Email
+        Marketing (Klaviyo, Mailchimp),
+        <mark class="light-blue-bg-text">CRM tools</mark>, Marketing Automation.
+      </p>
+    </section>
+    <!-- Featured Projects -->
+    <section class="featured-projects-section">
+      <h2>Featured Projects</h2>
+      <div class="projects-container">
+        <!-- Project ArkiArt -->
+
+        <div class="project">
+          <div class="project-image-div">
+            <a href="https://arkiart.netlify.app/" target="_blank">
+              <img
+                class="project-image"
+                src="images/ArkiArt.jpg"
+                alt="An image ArkiArt webstore on mobile and desktop"
+              />
+            </a>
+          </div>
+          <div class="project-content">
+            <h3>Project 1</h3>
+            <p>
+              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+
+            <div class="project-skills">
+              <span>JS ES6</span>
+              <span>React</span>
+              <span>Redux</span>
+              <span>MongoDB</span>
+            </div>
+            <div class="project-skills">
+              <span>Styled Components</span>
+              <span>TailwindCSS</span>
+            </div>
+            <div class="project-buttons">
+              <form
+                action="https://github.com/Alexander-Gabor/ArkiArt-backend"
+                method="get"
+                target="_blank"
+              >
+                <button type="submit" class="view-code-button">
+                  <img
+                    class="button-icons"
+                    src="images/githubbutton.png"
+                    alt="Github button"
+                  />
+                  View the code
+                </button>
+              </form>
+              <form
+                action="https://arkiart.netlify.app/"
+                method="get"
+                target="_blank"
+              >
+                <button type="submit" class="live-demo-button">
+                  <img
+                    class="button-icons"
+                    src="images/livedemobutton.png"
+                    alt=""
+                  />
+                  Live Demo
+                </button>
+              </form>
+            </div>
+          </div>
         </div>
-      </section>
 
-      <footer>© <span id="y"></span> Your Name. All rights reserved.</footer>
-    </div>
+        <div class="project">
+          <div class="project-image-div">
+            <a href="https://tealicious-lab.netlify.app/" target="_blank">
+              <img
+                class="project-image"
+                src="images/Week_1.jpg"
+                alt="Chatbot shown in desktop and mobile view"
+              />
+            </a>
+          </div>
+          <div class="project-content">
+            <h3>Project 2</h3>
+            <p>
+              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam.
+            </p>
 
-    <script>
-      document.getElementById("y").textContent = new Date().getFullYear();
-    </script>
+            <div class="project-skills">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JS ES6</span>
+              <span>CSS3</span>
+            </div>
+            <div class="project-buttons">
+              <form
+                action="https://github.com/Alexander-Gabor/project-chatbot"
+                method="get"
+                target="_blank"
+              >
+                <button type="submit" class="view-code-button">
+                  <img
+                    class="button-icons"
+                    src="images/githubbutton.png"
+                    alt="Github button"
+                  />
+                  View the code
+                </button>
+              </form>
+              <form
+                action="https://tealicious-lab.netlify.app/"
+                method="get"
+                target="_blank"
+              >
+                <button type="submit" class="live-demo-button">
+                  <img
+                    class="button-icons"
+                    src="images/livedemobutton.png"
+                    alt=""
+                  />
+                  Live Demo
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project-image-div">
+            <a href="https://gitdun.netlify.app/" target="_blank">
+              <img
+                class="project-image"
+                src="images/GitDun.jpg"
+                alt="Website GitDun shown in desktop and mobile view"
+              />
+            </a>
+          </div>
+          <div class="project-content">
+            <h3>Project 3</h3>
+            <p>
+              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+
+            <div class="project-skills">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JS ES6</span>
+              <span>React</span>
+              <span>Redux</span>
+              <span>Styled Components</span>
+            </div>
+            <div class="project-buttons">
+              <form
+                action="https://github.com/Alexander-Gabor/project-todos"
+                method="get"
+                target="_blank"
+              >
+                <button type="submit" class="view-code-button">
+                  <img
+                    class="button-icons"
+                    src="images/githubbutton.png"
+                    alt="Github button"
+                  />
+                  View the code
+                </button>
+              </form>
+              <form
+                action="https://gitdun.netlify.app/"
+                method="get"
+                target="_blank"
+              >
+                <button type="submit" class="live-demo-button">
+                  <img
+                    class="button-icons"
+                    src="images/livedemobutton.png"
+                    alt=""
+                  />
+                  Live Demo
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- My Words section -->
+    <!-- <section class="my-words-section"> -->
+    <!-- <h1>My Thoughts</h1> -->
+
+    <!-- <div class="articles-container"> -->
+    <!-- <article>
+          <img
+            class="article-image"
+            src="https://images.unsplash.com/photo-1607428122288-7e2d5c0329ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+            alt="An image that says keep it fun"
+          />
+          <h2 class="blogpost-date" aria-hidden="true">July 2023</h2>
+          <h3 class="blogpost-title">
+            How to stop being scared: Learning to love code
+          </h3>
+          <p class="blogpost-text">
+            Writing code is less about “just working”. Instead, it’s much more
+            about creativity. It’s similar to creative writing in that the
+            author architecting a story must use an assortment of tools and
+            components (i.e., content) in a way to satisfy a particular
+            objective.
+          </p>
+          <form action="#" method="get" target="_blank">
+            <button type="submit" class="read-article-button button-contents">
+              <img
+                class="article-button-image"
+                src="images/Doc.svg"
+                alt="article icon"
+              />
+              Read article
+            </button>
+          </form>
+        </article> -->
+
+    <!-- <article>
+          <img
+            class="article-image"
+            src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80"
+            alt="An image of code displayed on a laptop placed on a desk"
+          />
+          <h2 class="blogpost-date" aria-hidden="true">July 2023</h2>
+          <h3 class="blogpost-title">
+            My advice to those who want to learn coding and are hesitant
+          </h3>
+          <p class="blogpost-text">
+            Writing code is less about “just working”. Instead, it’s much more
+            about creativity. It’s similar to creative writing in that the
+            author architecting a story must use an assortment of tools and
+            components (i.e., content) in a way to satisfy a particular
+            objective.
+          </p>
+          <form action="#" method="get" target="_blank">
+            <button type="submit" class="read-article-button button-contents">
+              <img
+                class="article-button-image"
+                src="images/Doc.svg"
+                alt="article icon"
+              />
+              Read article
+            </button>
+          </form>
+        </article> -->
+
+    <!-- <article>
+          <img
+            class="article-image"
+            src="https://images.unsplash.com/photo-1435575653489-b0873ec954e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+            alt="An image of a building"
+          />
+          <h2 class="blogpost-date" aria-hidden="true">July 2023</h2>
+          <h3 class="blogpost-title">
+            Architecture and web-development, where do these two worlds
+            meet?
+          </h3>
+          <p class="blogpost-text">
+            Writing code is less about “just working”. Instead, it’s much more
+            about creativity. It’s similar to creative writing in that the
+            author architecting a story must use an assortment of tools and
+            components (i.e., content) in a way to satisfy a particular
+            objective.
+          </p>
+          <form action="#" method="get" target="_blank">
+            <button type="submit" class="read-article-button button-contents">
+              <img
+                class="article-button-image"
+                src="images/Doc.svg"
+                alt="article icon"
+              />
+              Read article
+            </button>
+          </form>
+        </article> -->
+
+    <!-- <article>
+          <img
+            class="article-image"
+            src="https://images.unsplash.com/photo-1472437774355-71ab6752b434?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+            alt="An image of books about Javascript"
+          />
+          <h2 class="blogpost-date" aria-hidden="true">July 2023</h2>
+          <h3 class="blogpost-title">
+            My top 10 tips to those learning Javascript
+          </h3>
+          <p class="blogpost-text">
+            Writing code is less about “just working”. Instead, it’s much more
+            about creativity. It’s similar to creative writing in that the
+            author architecting a story must use an assortment of tools and
+            components (i.e., content) in a way to satisfy a particular
+            objective.
+          </p>
+          <form action="#" method="get" target="_blank">
+            <button type="submit" class="read-article-button button-contents">
+              <img
+                class="article-button-image"
+                src="images/Doc.svg"
+                alt="article icon"
+              />
+              Read article
+            </button>
+          </form>
+        </article> -->
+    <!-- </div>
+    </section> -->
+
+    <!-- Skills section -->
+
+    <section class="skills-section">
+      <h2>Skills</h2>
+      <div class="skills-list-container">
+        <div class="skills-list code">
+          <h3 class="pink-bg-text">Code</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Javascript ES6</li>
+            <li>React</li>
+            <li>Styled Components</li>
+            <li>Node.js</li>
+            <li>Redux</li>
+            <li>GitHub</li>
+          </ul>
+        </div>
+
+        <div class="skills-list toolbox">
+          <h3 class="light-blue-bg-text">Toolbox</h3>
+          <ul>
+            <li>Atom</li>
+            <li>Postman</li>
+            <li>MongoDB Atlas</li>
+            <li>Heroku</li>
+            <li>Figma</li>
+            <li>Slack</li>
+          </ul>
+        </div>
+
+        <div class="skills-list more">
+          <h3 class="blue-bg-text">More</h3>
+          <ul>
+            <li>Agile methodology</li>
+            <li>Branding</li>
+            <li>Pair-programming</li>
+            <li>Web Accessibility</li>
+            <li>Communication</li>
+            <li>Task Organization</li>
+          </ul>
+        </div>
+
+        <div class="skills-list upcoming">
+          <h3 class="green-bg-text">Upcoming</h3>
+          <ul>
+            <li>Angular</li>
+            <li>Vue</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Contact info section -->
+    <section class="contact-section">
+      <h1 class="time-to-talk">Let's talk!</h1>
+      <div class="contact-container">
+        <div class="name-and-profilePhoto">
+          <img
+            class="profile-pic"
+            src="https://i.ibb.co/C5MRt10k/ISIMG-973349-Afterlight.jpg"
+            alt="Profile photo of Alexander Gabor"
+          />
+          <div class="aboutme">
+            <h3>Alexander Gabor</h3>
+            <h4>Growth specialist</h4>
+            <h5>+ developer | designer</h5>
+          </div>
+        </div>
+
+        <div class="contact-info">
+          <!-- <h3>mobile number here</h3> -->
+          <h3>
+            <a href="mailto:gaboralexanderalex@gmail.com"
+              >gaboralexanderalex@gmail.com</a
+            >
+          </h3>
+          <h3>+46 7 69364844</h3>
+        </div>
+
+        <div class="social-icons">
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/alexander-gabor-1485b4260/"
+                class="social-icon"
+                aria-label="Visit Alexander Gabor's linkedin"
+                aria-hidden="true"
+                ><img
+                  aria-label="visit my linked profile"
+                  class="social-icon"
+                  src="images/linkedin.svg"
+                  alt="linkedin-icon"
+              /></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://github.com/Alexander-Gabor"
+                class="social-icon"
+                aria-label="Visit Alexander Gabor's Github"
+                aria-hidden="true"
+                ><img
+                  aria-label="visit my github"
+                  class="social-icon"
+                  src="images/github.svg"
+                  alt="github-icon"
+              /></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://stackoverflowteams.com/c/technigo/users/415/?tab=profile"
+                class="social-icon"
+                aria-label="Visit Alexander Gabor's Stackoverflow"
+                aria-hidden="true"
+                ><img
+                  aria-label="Visit my stack overflow"
+                  class="social-icon"
+                  src="images/stackoverflow.svg"
+                  alt="stack-overflow-icon"
+              /></a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href=""
+                class="social-icon"
+                aria-label="Visit Alexander Gabor's Instagram"
+                aria-hidden="true"
+                ><img
+                  aria-label="Visit my Instagram profile"
+                  class="social-icon"
+                  src="images/instagram.svg"
+                  alt="Instagram-icon"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="backToTop.js"></script>
   </body>
 </html>
