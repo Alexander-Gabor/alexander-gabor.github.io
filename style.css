@@ -149,7 +149,7 @@ ul {
 .name-and-profilePhoto h4 {
   color: #000000;
   font-family: Satoshi-black;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 900;
   line-height: 40px;
 }
@@ -357,6 +357,7 @@ ul {
 }
 
 .project-skills span {
+  font-size: small;
   background-color: #000;
   color: white;
   padding: 2px 6px;
@@ -384,7 +385,7 @@ ul {
 }
 
 .live-demo-button {
-  width: 220px;
+  width: 300px;
   height: 48px;
 }
 
@@ -451,7 +452,7 @@ ul {
 
 /* Skills section */
 .skills-section {
-  background-color: #fdf2e4;
+  background-color: rgba(225, 147, 3, 0.807);
 }
 
 .skills-section h2 {
